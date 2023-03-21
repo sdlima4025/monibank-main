@@ -11,7 +11,7 @@ formulario.addEventListener("submit", (e) => {
         "email": e.target.elements["email"].value,
         "rg": e.target.elements["rg"].value,
         "cpf": e.target.elements["cpf"].value,
-       "aniversario": e.target.elements["aniversario"].value,
+        "aniversario": e.target.elements["aniversario"].value,
     }
 
     localStorage.setItem("cadastro", JSON.stringify(listaRespostas));
