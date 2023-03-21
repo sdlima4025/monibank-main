@@ -43,7 +43,7 @@
     </header>
 
     <section class="banner">
-        <h3 class="banner__titulo">Moniconta é o primeiro passo para a liberdade financeira!</h3>
+        <h3 class="banner__titulo">SergiBank é o primeiro passo para a liberdade financeira!</h3>
     </section>
 
     <main class="container">
@@ -72,7 +72,7 @@
                 </fieldset>
                 <fieldset class="formulario__campo">
                     <label class="campo__etiqueta" for="rg">RG</label>
-                    <input name="rg" id="rg" class="campo__escrita campo__escrita--menor" type="text"  required />
+                    <input name="rg" id="rg" class="campo__escrita campo__escrita--menor" type="text"  required minlength="10" />
                     <span class="mensagem-erro"></span>
                 </fieldset>
                 <fieldset class="formulario__campo">
@@ -95,7 +95,7 @@
                 </fieldset>
 
                 <div>
-                    <input value="Avançar" class="formulario__botao" id="enviar" data-botao-enviar type="submit">
+                    <input value="Avançar" class="formulario__botao" id="enviar" data-botao-enviar type="submit" required>
                     <span class="mensagem-erro"></span>
                 </div>
             </form>
